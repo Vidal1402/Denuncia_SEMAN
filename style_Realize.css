@@ -1,0 +1,174 @@
+@media (min-width: 900px) and (max-width: 9000px) {
+    .denuncia {
+        border: 1px solid #ccc;
+        padding: 15px;
+        margin: 10px 0;
+        background-color: #e76e41;
+        opacity: 0.95;
+        border-radius: 5px;
+    }
+
+    .denuncia h3 {
+        margin: 0;
+        color: white;
+    }
+
+    .denuncia p {
+        margin: 5px 0;
+        color: white;
+    }
+    h2{
+        font-size: 30px;
+        color: white;
+    }
+    .denuncia.nao-atendida {
+        background-color: #ff4d4d; /* Vermelho para não atendidas */
+        opacity: 0.95;
+        border: 1px solid #f50000; /* Borda vermelha */
+    }
+    
+    /* Estilo para denúncias atendidas */
+    .denuncia.atendida {
+        background-color: #28a745; /* Verde para atendidas */
+        opacity: 1;
+        border: 1px solid #1e7e34; /* Borda verde */
+    }
+    .top-bar {
+        width: 100%;
+        background-color: #433f87;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        border-bottom: 6.5px solid #e75925;
+        position: fixed;
+        z-index: 1000;
+        
+        
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('img/fundo.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 100vh; /* Garante que o conteúdo ocupe a tela */
+        color: #333;
+    }
+
+    .container {
+        width: 85%;
+        max-width: 700px;
+        background-color: #433f87;
+        opacity: 0.95;
+        padding: 0.9%;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgb(248, 248, 248);
+        text-align: center;
+        margin-top: 7%;
+    }
+
+    .image-container img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    p {
+        color: #ffffff;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 20px; /* Dá espaço ao formulário */
+    }
+
+    .order {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .sobrenos, .sobreno, .sobren {
+        color: white;
+        margin: 0 10px; /* Garante espaçamento entre os links */
+    }
+
+    .prefeitura, .seman {
+        width: 12%;
+    }
+
+    .seman {
+        position: absolute;
+        right: 10%;
+        top: -32%;
+    }
+
+   
+
+    .sobrenos{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 81.7%;
+    }
+   
+    .sobreno{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 75.7%;
+    }
+    .sobren{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 68.7%;
+    }
+    .sobre{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 57%;
+    }
+
+    .bar2{
+        display:flex;
+        color:#e75925;
+        position: absolute;
+        margin-top: 0.7%;
+        right: 75.2%;
+        font-size: 36px;
+    }
+    .bar3{
+        display:flex;
+        color:#e75925;
+        position: absolute;
+        margin-top: 0.7%;
+        right: 81.2%;
+        font-size: 36px;
+    }
+    
+}

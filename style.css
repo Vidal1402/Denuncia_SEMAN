@@ -1,0 +1,277 @@
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        background-color: #D5F5DC;
+        overflow: hidden;
+    }
+ .container {
+        color: white;
+        background-color:  #247724;
+        padding: 2%;
+        border-radius: 10px;
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza verticalmente */
+     
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 80%; /* Ocupa toda a largura disponível */
+    }
+    
+    .order {
+        display: flex;
+        align-items: center; /* Centraliza verticalmente */
+        justify-content: center; /* Centraliza horizontalmente */
+       
+    }
+    .enviar {
+        font-family: Cambria, sans-serif;
+        background-color: #29ab2a;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor */
+    }
+
+    /* -------------------------------------------------------------------- */
+    /*Css para top-bar*/
+    .top-bar {
+        width: 100%;
+        background-color: #247724;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        border-bottom: 5px solid #3cb53c; 
+        position: fixed;
+    }
+    
+    .watermark {
+        display: flex;
+        position: absolute;
+        bottom: -10%;
+        left: 1%;
+        opacity: 1.0;
+        width: 10%;
+    }
+    
+    .prefeitura {
+        width: 14%;
+    }
+    .seman {
+        width: 14%;
+    }
+    
+    .instagram {
+        width: 8%;
+        position: absolute;
+        right: 6%;
+    }
+    
+    .barra {
+        position: absolute;
+        left: 4%;
+        margin-top: 1%;
+        width: 3%;
+    }
+
+    /* -------------------------------------------------------------------- */
+   
+    .watermark {
+        display: flex;
+        position: absolute;
+        bottom: 0px; 
+        left: 8px;
+        opacity: 1.0;
+        width: 50px;
+    }
+ 
+     
+  }
+
+.navbar {
+    text-align: left; 
+}
+
+
+     /* -------------------------------------------------------------------- */
+
+
+
+
+/* Estilos específicos para telas maiores ou iguais a 600 pixels de largura */
+
+
+@media (min-width: 900px) and (max-width: 9000px) {
+
+   
+    /* -------------------------------------------------------------------- */
+        .top-bar {
+            width: 100%;
+            background-color: #433f87;
+            color: white;
+            padding: 1%;
+            text-align: center;
+            border-bottom: 6.5px solid #e75925; 
+            position: fixed;
+            z-index: 1000;
+        }
+       body {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('img/fundo.png');
+        background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+        background-position: center; /* Centraliza a imagem */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        color: #333;
+        height: 10%;
+       }
+       
+    .container {
+        width: 85%; /* Responsivo, ocupa 85% da largura disponível */
+        max-width: 700px; /* Define uma largura máxima maior */
+        background-color: #433f87;
+        opacity: 0.95;
+        padding: 0.9%;
+        margin-top: 20%;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgb(248, 248, 248);
+        text-align: center;
+        
+    }
+    
+
+       .image-container img {
+        width: 100%;
+        max-width: 200px; /* Tamanho máximo da imagem */
+        height: auto; /* Mantém a proporção da imagem */
+        border-radius: 10px; /* Para um visual mais suave */
+    }
+
+       h1 {
+        font-size: 2.5em;
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+        
+        p {
+            color: #ffffff;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+    }
+        
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 90%; /* Ocupa toda a largura disponível */
+    }
+       
+       .order {
+           display: flex;
+           align-items: center; /* Centraliza verticalmente */
+           justify-content: center; /* Centraliza horizontalmente */
+          
+       }
+
+   
+       /* -------------------------------------------------------------------- */
+       /*Css for top-bar*/
+       
+    .d {
+        color: white;
+        padding: 1%;
+        position: fixed;
+    }
+    .sub {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .prefeitura {
+        width: 12%;
+    }
+    .seman {
+        width: 11%;
+        position: absolute;
+        right: 10%;
+        margin-top: -2.6%;
+    }
+    .barra {
+        position: absolute;
+        left: 4%;
+        margin-top: 1%;
+        width: 3%;
+    }
+
+    .esta{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 82.7%;
+    }
+
+    /* -------------------------------------------------------------------- */
+    
+       
+        .sobreno{
+            display:flex;
+            color:white;
+            position: absolute;
+            margin-top: 1.4%;
+            right: 76.6%;
+        }
+        .sobren{
+            display:flex;
+            color:white;
+            position: absolute;
+            margin-top: 1.4%;
+            right: 69.4%;
+        }
+        .sobre{
+            display:flex;
+            color:white;
+            position: absolute;
+            margin-top: 1.4%;
+            right: 57%;
+        }
+    
+        .bar2{
+            display:flex;
+            color:#e75925;
+            position: absolute;
+            margin-top: 0.7%;
+            right: 75.2%;
+            font-size: 36px;
+        }
+        .bar3{
+            display:flex;
+            color:#e75925;
+            position: absolute;
+            margin-top: 0.7%;
+            right: 81.2%;
+            font-size: 36px;
+        }
+
+       .estatistic{
+            position: absolute;
+           left: 75%;
+           margin-top: 1.5%;
+           color: white;
+           font-size: 16px;
+       }
+       .graficoCategoria{
+        margin-top: 10%;
+       }
+        /* -------------------------------------------------------------------- */

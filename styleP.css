@@ -1,0 +1,276 @@
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        background-color: #D5F5DC;
+        overflow: hidden;
+    }
+ .container {
+        color: white;
+        background-color:  #247724;
+        padding: 2%;
+        border-radius: 10px;
+        margin-top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza verticalmente */
+     
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 80%; /* Ocupa toda a largura disponível */
+    }
+    
+    .order {
+        display: flex;
+        align-items: center; /* Centraliza verticalmente */
+        justify-content: center; /* Centraliza horizontalmente */
+       
+    }
+    .enviar {
+        font-family: Cambria, sans-serif;
+        background-color: #29ab2a;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor */
+    }
+
+    /* -------------------------------------------------------------------- */
+    /*Css para top-bar*/
+    .top-bar {
+        width: 100%;
+        background-color: #247724;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        border-bottom: 5px solid #3cb53c; 
+        position: fixed;
+    }
+    
+    .watermark {
+        display: flex;
+        position: absolute;
+        bottom: -10%;
+        left: 1%;
+        opacity: 1.0;
+        width: 10%;
+    }
+    
+    .prefeitura {
+        width: 14%;
+    }
+    .seman {
+        width: 14%;
+    }
+    
+    .instagram {
+        width: 8%;
+        position: absolute;
+        right: 6%;
+    }
+    
+    .barra {
+        position: absolute;
+        left: 4%;
+        margin-top: 1%;
+        width: 3%;
+    }
+
+    /* -------------------------------------------------------------------- */
+   
+    .watermark {
+        display: flex;
+        position: absolute;
+        bottom: 0px; 
+        left: 8px;
+        opacity: 1.0;
+        width: 50px;
+    }
+ 
+     
+  }
+
+.navbar {
+    text-align: left; 
+}
+
+
+     /* -------------------------------------------------------------------- */
+
+
+
+
+/* Estilos específicos para telas maiores ou iguais a 600 pixels de largura */
+
+
+@media (min-width: 600px) and (max-width: 9000px) {
+
+   
+    /* -------------------------------------------------------------------- */
+       body {
+        margin: 0;
+        background-image: url('img/fundo.png');
+        background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita a repetição da imagem */
+       }
+       
+       .container {
+        font-size: 22px;
+        color: white;
+        background-color: #433f87;
+        padding: 3%;
+        margin-top: 10%;
+        border-radius: 17px;
+        display: flex; /* Posiciona o container à direita */
+        flex-direction: column;
+        align-items: center; /* Centraliza verticalmente */
+    }
+        
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 90%; /* Ocupa toda a largura disponível */
+    }
+       
+       .order {
+           display: flex;
+           align-items: center; /* Centraliza verticalmente */
+           justify-content: center; /* Centraliza horizontalmente */
+          
+       }
+       .enviar {
+           font-family: Cambria, sans-serif;
+           background-color: #e75925;;
+           color: white;
+           padding: 10px;
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           transition: background-color 0.3s ease; /* Adiciona uma transição suave de cor */
+       }
+   
+       /* -------------------------------------------------------------------- */
+       /*Css for top-bar*/
+       .top-bar {
+        width: 100%;
+        background-color: #433f87;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        border-bottom: 6.5px solid #e75925; 
+        position: fixed;
+        z-index: 1000;
+    }
+    .d {
+        color: white;
+        padding: 1%;
+        position: fixed;
+    }
+    .sub {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .prefeitura {
+        width: 12%;
+    }
+    .seman {
+        width: 11%;
+        position: absolute;
+        right: 10%;
+        margin-top: -2.6%;
+    }
+    
+    .instagram {
+        width: 4.5%;
+        position: absolute;
+        right: 10%;
+        margin-top: -0.5%;
+    }
+    
+    .barra {
+        position: absolute;
+        left: 4%;
+        margin-top: 1%;
+        width: 3%;
+    }
+
+    
+    .email{
+        position: absolute;
+        left: 11%;
+        margin-top: 1.6%;
+        color: white;
+        font-size: 7px;
+    }
+    /* -------------------------------------------------------------------- */
+    .sobrenos{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 83%;
+    }
+   
+    .sobreno{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 77%;
+    }
+    .sobren{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 70%;
+    }
+    .sobre{
+        display:flex;
+        color:white;
+        position: absolute;
+        margin-top: 1.4%;
+        right: 57%;
+    }
+
+    .bar2{
+        display:flex;
+        color:#e75925;
+        position: absolute;
+        margin-top: 0.7%;
+        right: 75.2%;
+        font-size: 36px;
+    }
+    .bar3{
+        display:flex;
+        color:#e75925;
+        position: absolute;
+        margin-top: 0.7%;
+        right: 81.2%;
+        font-size: 36px;
+    }
+    .success-message {
+            color: white;
+            font-size: 12px; /* Ajuste o tamanho da fonte aqui */
+            text-align: center;
+            margin: 20px 0;
+        }
+       .estatistic{
+            position: absolute;
+           left: 75%;
+           margin-top: 1.5%;
+           color: white;
+           font-size: 16px;
+       }
+
+        /* -------------------------------------------------------------------- */
+}
+   
+   
+   
